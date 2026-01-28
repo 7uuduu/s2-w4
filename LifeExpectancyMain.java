@@ -16,8 +16,8 @@ public class LifeExpectancyMain {
             // analyzer.displayAllCountries();
             // analyzer.displayByRegion("Asia");
             // System.out.println(analyzer.findLowestLifeExpectancy().getName());
-            // System.out.println(analyzer.findMostImprovement().getName());
-            analyzer.displayStatistics();
+            System.out.println(analyzer.findMostImprovement().getName());
+            // analyzer.displayStatistics();
 
         } catch (IOException e) {
             System.err.println("File not found: " + e.getMessage());

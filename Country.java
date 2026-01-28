@@ -66,7 +66,7 @@ public class Country {
      * @return change in years
      */
     public double getChange2010To2020() {
-        return lifeExpectancy2020 - lifeExpectancy2020;
+        return lifeExpectancy2020 - lifeExpectancy2010;
     }
 
     /**
